@@ -44,7 +44,7 @@ let isformValid = () => {
 let addTask = () => {
     Tasks.innerHTML="";
     Data.map((x,y)=>{
-        return(Tasks.innerHTML += `<div id=${y} class="bg-blue-300 border-2 border-solid rounded-md border-blue-500 px-2 my-4 py-2 h-auto">
+        return(Tasks.innerHTML += `<div id=${y} class="bg-blue-300 border-2 border-solid rounded-md border-blue-500 px-2 my-1 py-2 h-auto">
         <h1 class="font-semibold">${x.title}</h1>
         <span>${x.date}</span>
         <p>${x.description}</p>
